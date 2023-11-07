@@ -176,7 +176,7 @@ td{
 
 @media screen and (max-width:480px){
     *{
-        width: 95vw;
+        width: 100vw;
         box-sizing: border-box;
         width: 100%;
     }
@@ -229,6 +229,7 @@ td{
     #categories-section{
         display: flex;
         flex-wrap: nowrap;
+        width: 95vw;
     }
     #categories-section > img{
         width: 100px;
