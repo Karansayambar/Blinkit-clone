@@ -228,6 +228,7 @@ td{
     #categories-section{
         display: flex;
         flex-wrap: nowrap;
+        width: 95vw;
     }
     #categories-section > img{
         width: 100px;
@@ -238,5 +239,11 @@ td{
     }
     #hero-section{
         display:none !important;
+    }
+    .my-container{
+        width: 90vw;
+    }
+    .categories-section{
+        width: 95vw;
     }
 }
