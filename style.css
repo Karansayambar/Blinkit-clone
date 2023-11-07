@@ -174,16 +174,16 @@ td{
     justify-content: center;
 }
 
-@media screen and (max-width:310px){
+@media screen and (max-width:480px){
     *{
         box-sizing: border-box;
-        width: 100vw;
+        width: 100%;
     }
     nav{
         flex-direction: column !important;
         padding: 10px;
         align-items: center;
-        width: 100vw;
+        width: 95vw;
         text-align: center;
     }
     #nav-bar > button{
@@ -204,7 +204,7 @@ td{
     .footer-r-1{
         display: flex !important;
         flex-direction: column !important;
-        width: 100vw;
+        width: 95vw;
     }
     #footer-r2-c1{
         width: 90vw !important;
@@ -215,11 +215,9 @@ td{
     }
     #footer-table-1{
         flex: 1;
-        width: 100vw;
     }
     #footer-table-2{
         flex: 1;
-        width: 100vw;
     }
     #footer-table-1 > h4, #footer-table-2 > h4{
         text-align: center;
@@ -242,9 +240,9 @@ td{
         display:none !important;
     }
     .my-container{
-        width: 100vw;
+        width: 95vw;
     }
     .categories-section{
-        width: 100vw;
+        width: 95vw;
     }
 }
