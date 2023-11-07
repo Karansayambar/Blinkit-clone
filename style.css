@@ -183,7 +183,7 @@ td{
         flex-direction: column !important;
         padding: 10px;
         align-items: center;
-        width: 95vw;
+        width: 100vw;
         text-align: center;
     }
     #nav-bar > button{
@@ -204,7 +204,7 @@ td{
     .footer-r-1{
         display: flex !important;
         flex-direction: column !important;
-        width: 95vw;
+        width: 100vw;
     }
     #footer-r2-c1{
         width: 90vw !important;
@@ -215,11 +215,11 @@ td{
     }
     #footer-table-1{
         flex: 1;
-        width: 95vw;
+        width: 100vw;
     }
     #footer-table-2{
         flex: 1;
-        width: 95vw;
+        width: 100vw;
     }
     #footer-table-1 > h4, #footer-table-2 > h4{
         text-align: center;
@@ -242,9 +242,9 @@ td{
         display:none !important;
     }
     .my-container{
-        width: 95vw;
+        width: 100vw;
     }
     .categories-section{
-        width: 95vw;
+        width: 100vw;
     }
 }
