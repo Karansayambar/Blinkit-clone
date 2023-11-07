@@ -174,7 +174,7 @@ td{
     justify-content: center;
 }
 
-@media screen and (max-width:479x){
+@media screen and (max-width:500px){
     *{
         width: 95vw;
         box-sizing: border-box;
@@ -188,10 +188,7 @@ td{
         text-align: center;
     }
     #nav-bar > button{
-        display: none
-    }
-    #hero-section{
-        display: none !important;
+        display: none;
     }
     .vertical-line{
         display: none;
@@ -238,5 +235,8 @@ td{
     }
     #social-icons{
         text-align: center;
+    }
+    #hero-section{
+        display:none !important;
     }
 }
