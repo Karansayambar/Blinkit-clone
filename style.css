@@ -174,18 +174,24 @@ td{
     justify-content: center;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:455px){
+    *{
+        width: 95vw;
+        box-sizing: border-box;
+        width: 100%;
+    }
     nav{
         flex-direction: column !important;
         padding: 10px;
         align-items: center;
         width: 100%;
+        text-align: center;
     }
     #nav-bar > button{
         display: none
     }
     #hero-section{
-        display:none !important;
+        display: none !important;
     }
     .vertical-line{
         display: none;
@@ -220,6 +226,17 @@ td{
         text-align: center;
     }
     td{
+        text-align: center;
+    }
+    #categories-section{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #categories-section > img{
+        width: 100px;
+        height: 100px;
+    }
+    #social-icons{
         text-align: center;
     }
 }
