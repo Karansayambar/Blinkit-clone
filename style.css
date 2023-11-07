@@ -123,11 +123,13 @@ nav{
 td{
     font-size: 14px;
     color: #6b6b6b;
-    padding-right: 60px;
+    padding-right: 40px;
     padding-bottom: 10px;
 }
-#footer-table-1{
-    padding-right: 80px;
+#footer-table-2{
+    width: 100%;
+    padding:0;
+    margin: 0;
 }
 #footer-table-1 > h4{
     margin-bottom: 30px;
@@ -229,7 +231,7 @@ td{
     #categories-section{
         display: flex;
         flex-wrap: nowrap;
-        width: 95vw;
+        width: 100%;
     }
     #categories-section > img{
         width: 100px;
@@ -242,7 +244,7 @@ td{
         display:none !important;
     }
     .my-container{
-        width: 95vw;
+        width: 85vw;
     }
     .categories-section{
         width: 95vw;
