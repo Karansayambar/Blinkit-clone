@@ -174,7 +174,7 @@ td{
     justify-content: center;
 }
 
-@media screen and (max-width:467x){
+@media screen and (max-width:479x){
     *{
         width: 95vw;
         box-sizing: border-box;
